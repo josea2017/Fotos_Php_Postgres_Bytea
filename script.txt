@@ -1,0 +1,10 @@
+
+database fotos
+
+create table imagenes
+(
+	id SERIAL NOT NULL PRIMARY KEY,
+	comentario VARCHAR(100) NOT NULL,
+	imagen BYTEA
+
+);
